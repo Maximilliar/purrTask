@@ -1,0 +1,66 @@
+.nightlife {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 350px;
+    background-size: cover;
+    min-height: 1200px;
+}
+
+.nightlife_left {
+    height: 682px;
+    width: 50%;
+    background: url('/img/cocktails/shadow_cocktails.svg') no-repeat center center, 
+                url('/img/nightlife/nightlife_music.svg')no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.nightlife_right {
+    height: 682px;
+    width: 50%;
+    background: url('/img/nightlife/nightlife_cocktail.svg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.nightlife_block_text {
+    margin-left: 130px;
+    margin-top: 431px;
+}
+
+.nightlife_title {
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 105px;
+    margin-bottom: 20px;
+    text-shadow: 22px -10px 30px black;
+}
+
+.nightlife_text {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 60px;
+    width: 315px;
+}
+
+.nightlife_img_title {
+    position: absolute;
+    left: 75%;
+}
+
+.nightlife_img_order1 {
+    position: absolute;
+    left: -90px;
+    top: 175px;
+}
+
+.nightlife_img_order2 {
+    position: absolute;
+    left: 306px;
+    top: 550px;
+}
+
+.nightlife_down {
+    margin-right: 28px;
+    height: 51px;
+}

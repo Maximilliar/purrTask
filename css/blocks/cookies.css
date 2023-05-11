@@ -1,0 +1,28 @@
+.cookies {
+    background-color: #212834;
+}
+
+.cookies_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+.cookies_title {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.btn_cookies {
+    width: 132px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #FFFFFF;
+    border-radius: 6px;
+}
+
+.btn_cookies:hover{background: rgba(255, 255, 255, 0.4)}

@@ -1,0 +1,88 @@
+.graph {
+    margin-top: 200px;
+    height: auto;
+}
+
+.graph_block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.graph_left {
+    width: 45%;
+    position: relative;
+}
+
+.graph_right {
+    position: relative;
+}
+
+.graph_img1 {
+    position: absolute;
+    right: 60px;
+    z-index: 10;
+}
+
+.graph_img2 {
+    position: absolute;
+    right: 255px;
+    top: 195px;
+    z-index: 10;
+}
+
+.graph_img3 {
+    position: absolute;
+    right: 0px;
+    top: 195px;
+    z-index: 10;
+}
+
+.graph_img4 {
+    position: absolute;
+    right: 235px;
+    top: 413px;
+    z-index: 9;
+}
+
+.graph_img5 {
+    position: absolute;
+    right: 159px;
+    top: 308px;
+    z-index: 10;
+}
+
+.graph_img6 {
+    position: absolute;
+    right: 417px;
+    top: 261px;
+    z-index: 10;
+}
+
+.graph_img7 {
+    position: absolute;
+    right: -99px;
+    top: 476px;
+    z-index: 10;
+}
+
+.graph_title {
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 105px;
+}
+
+.graph_text {
+    font-weight: 400;
+    font-size: 18px;
+    width: 405px;
+}
+
+.graph_blur {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    background: rgb(107 52 151 / 30%);
+    filter: blur(75px);
+}

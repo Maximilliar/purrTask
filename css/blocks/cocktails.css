@@ -1,0 +1,8 @@
+.cocktails {
+    display: block;
+    margin-top: 285px;
+    background: url('/img/cocktails/shadow_cocktails.svg') no-repeat,
+                url('/img/cocktails/cocktails.png') no-repeat;
+    background-size: cover;
+    height: 850px;
+}

@@ -1,0 +1,44 @@
+.mission_wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.mission_phone {
+    width: 62%;
+}
+
+.mission_img {
+    position: absolute;
+    right: 32%;
+    top: -65%;
+}
+
+.mission_text {
+    position: relative;
+    width: 340px;
+}
+
+.mission_title {
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.mission_undertitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.mission_purple_blur {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0%;
+    right: 11%;
+    background: rgba(250, 0, 255, 0.4);
+    filter: blur(50px);;
+    z-index: -1;
+}

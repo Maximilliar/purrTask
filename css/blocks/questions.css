@@ -1,0 +1,32 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    width: 500px;
+    height: 312px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-right: 35px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card:last-child {margin-left: 35px}
+
+.card_title {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0px 70px 30px 55px;
+}
+
+.card_link {
+    margin-left: 55px;
+    font-size: 24px;
+    color: #fff;
+}

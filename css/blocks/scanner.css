@@ -1,0 +1,15 @@
+.scanner_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+
+.scanner_img {
+    position: absolute;
+    top: -385px;
+}
+
+.scanner_title {
+    width: 315px;
+}

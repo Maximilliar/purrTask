@@ -1,5 +1,13 @@
 @import url('blocks/header.css');
 @import url('blocks/main.css');
+@import url('blocks/download.css');
+@import url('blocks/cookies.css');
+@import url('blocks/questions.css');
+@import url('blocks/mission.css');
+@import url('blocks/cocktails.css');
+@import url('blocks/scanner.css');
+@import url('blocks/graph.css');
+@import url('blocks/nightlife.css');
 
 html {
     min-width: 1440px;
