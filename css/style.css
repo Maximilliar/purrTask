@@ -1,0 +1,23 @@
+@import url('blocks/header.css');
+@import url('blocks/main.css');
+
+html {
+    min-width: 1440px;
+}
+
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, p, a {
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+

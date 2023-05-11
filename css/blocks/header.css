@@ -1,0 +1,45 @@
+.header_inner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header_logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header_auth {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.logo_img {
+    width: 107px;
+    height: 109px;
+    padding-top: 23px;
+}
+
+.logo_text {
+    padding-top: 27px;
+    margin-left: 8px;
+    font-size: 36px;
+}
+
+.login_img {
+    margin-left: 108px;
+    margin-right: 12px;
+}
+
+.login_text {
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+}
+
+.login_text:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+}

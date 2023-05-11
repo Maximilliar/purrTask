@@ -1,0 +1,57 @@
+.main_page {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main_title {
+    margin-top: 143px;
+    font-size: 64px;
+    margin-bottom: 88px;
+    font-weight: 700;
+}
+
+.text_line {
+    display: block;
+    top: 70px;
+    width: 139.43px;
+    border-top: 4px solid #FFFFFF;
+    transform: rotate(120.61deg);
+    position: relative;
+}
+
+.main_text {
+    margin-left: 140px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+.main_ellipse {
+    position: absolute;
+    transform: translate3d(-30%, -70%, 0);
+}
+
+.main_right_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_phone { 
+    position: absolute;
+    top: -15px;
+    right: 25px;
+    z-index: 10;
+}
+
+.main_purple_blur {
+    position: absolute;
+    width: 670px;
+    height: 500px;
+    top: -205px;
+    background: rgba(250, 0, 255, 0.2);
+    filter: blur(120px);
+}
+
+
+/* Изображение main iphone имеет лишние невидимые границы, вследствие чего, пришлось через absolute подгонять по X/Y. */
