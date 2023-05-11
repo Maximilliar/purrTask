@@ -8,6 +8,8 @@
 @import url('blocks/scanner.css');
 @import url('blocks/graph.css');
 @import url('blocks/nightlife.css');
+@import url('blocks/qr.css');
+@import url('blocks/cards.css');
 
 html {
     min-width: 1440px;
