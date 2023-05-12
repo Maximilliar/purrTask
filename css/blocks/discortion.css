@@ -1,0 +1,21 @@
+.discortion {
+    height: 1000px;
+    background: url('/img/discortion/discortion_bg.svg') center center no-repeat;
+    background-size: cover;
+}
+
+.discortion_block {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.discortion_iphone {
+    position: absolute;
+    transform: translate(20%, 70%);
+}
+
+.discortion_screen {
+    position: absolute;
+    transform: translate(40%, 86%);
+}

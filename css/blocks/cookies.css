@@ -1,5 +1,9 @@
 .cookies {
+    display: none;
+    position: sticky;
+    bottom: 0;
     background-color: #212834;
+    z-index: 100;
 }
 
 .cookies_wrapper {

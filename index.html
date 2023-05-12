@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NoTAB Project</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -30,7 +32,7 @@
         <div class="container">
             <div class="main_page">
                 <div class="main_left_block">
-                    <h1 class="main_title">A platform <br>that works smarter</h1>
+                    <h1 class="main_title ">A platform <br>that works smarter</h1>
                     <div class="main_text_block">
                         <div class="text_line"></div>
                         <p class="main_text">NoTab allows bars & nightclubs <br>to manage, understand, and grow
@@ -57,18 +59,6 @@
                     <img src="img/download/apple_down.svg" class="download_img" alt="apps_ios">
                     <img src="img/download/play_down.svg" class="download_img" alt="apps_android">
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="cookies">
-        <div class="container">
-            <div class="cookies_wrapper" id="cookies">
-                <div class="cookies_text">
-                    <h1 class="cookies_title">We use cookie to improve your experience on our site. By using our site
-                        you consent cookies.</h1>
-                </div>
-                <button class="btn_cookies" id="btn_cookie">OK</button>
             </div>
         </div>
     </div>
@@ -220,6 +210,90 @@
             </div>
         </div>
     </div>
+
+    <div class="discortion">
+        <div class="container">
+            <div class="discortion_block">
+                <img src="img/discortion/discortion_iphone.svg" class="discortion_iphone" alt="iphone">
+                <img src="img/discortion/discortion_screen.svg" class="discortion_screen" alt="screen">
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="container">
+            <div class="form_block">
+                <h1 class="form_title">Get In Touch</h1>
+                <p class="form_text">Have questions about Noble or just want to say hello? <br>Drop us a line and a
+                    member of our team will getback to you shortly.</p>
+                <div class="form_blur"></div>
+            </div>
+            <div class="form_block_input">
+                <form action="#">
+                    <input autocomplete="off" type="text" name="firstName" pattern="[A-Za-z]"
+                        placeholder="Name" class="form_input">
+                    <input type="text" autocomplete="off" name="venueName" pattern="[A-Za-z]" placeholder="Venue Name"
+                        class="form_input">
+                        <div>
+                            <input type="text" autocomplete="off" name="venueCity" pattern="[A-Za-z]" placeholder="Venue City"
+                            class="form_input50">
+                        <input type="text" autocomplete="off" name="stateCity" pattern="[A-Za-z]" placeholder="State City"
+                            class="form_input50">
+                        </div>
+                    <input type="text" autocomplete="off" name="email" pattern="[A-Za-z]" placeholder="Email"
+                        class="form_input">
+                    <input type="text" autocomplete="off" name="subject" pattern="[A-Za-z]" placeholder="Subject"
+                        class="form_input">
+                    <input type="text" autocomplete="off" name="message" pattern="[A-Za-z]" placeholder="Message"
+                        class="form_input message">
+                    <button class="form_button" onclick="send" id="send">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="download_apps">
+            <div class="container">
+                <div class="download_apps_block">
+                    <h1 class="download_block_title">DOWNLOAD OUR APP</h1>
+                    <div class="download_apps_wrapper">
+                        <img src="img/download/apple_down.svg" alt="Download Apps Apple">
+                        <img src="img/download/play_down.svg" alt="Download Apps Apple">
+                    </div>
+                    <div class="blur"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_inner">
+                <div class="contacts">
+                    <h1 class="footer_h1">NOTAB</h1>
+                    <p class="footer_p">Contact us: <br><a href="mailto:support@notab.com" class="policy_link">support@notab.com</a><br><br><b>© 2020 - NoTab®</b></p>
+                    <div class="footer_blur"></div>
+                </div>
+                <div class="policy">
+                    <a href="#" class="policy_link">Terms to use</a>
+                    <a href="#" class="policy_link">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cookies" id="overlay">
+        <div class="container">
+            <div class="cookies_wrapper popup">
+                <div class="cookies_text">
+                    <h1 class="cookies_title">We use cookie to improve your experience on our site. By using our site
+                        you consent cookies.</h1>
+                </div>
+                <button class="btn_cookies" id="hide_popup">OK</button>
+            </div>
+        </div>
+    </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -10,6 +10,9 @@
 @import url('blocks/nightlife.css');
 @import url('blocks/qr.css');
 @import url('blocks/cards.css');
+@import url('blocks/discortion.css');
+@import url('blocks/form.css');
+@import url('blocks/footer.css');
 
 html {
     min-width: 1440px;
@@ -30,4 +33,6 @@ h1, h2, p, a {
     margin: 0 auto;
 }
 
-
+.red-border {
+    border: 3px solid red;
+}

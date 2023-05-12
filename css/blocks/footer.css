@@ -1,0 +1,45 @@
+.footer_inner {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.policy {
+    display: flex;
+    flex-direction: column;
+}
+
+.policy_link {
+    text-decoration: none;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer_blur {
+    height: 300px;
+    width: 400px;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    opacity: 0.3;
+    filter: blur(70px);
+    position: absolute;
+    top: -30px;
+    left: -113px;
+    z-index: -1;
+}
+
+.footer_blur2 {
+    height: 300px;
+    width: 400px;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    opacity: 0.3;
+    filter: blur(70px);
+    position: absolute;
+    top: 80%;
+    right: 300px;
+}
+
+.policy_link:hover {
+    border-bottom: 2px solid #fff;
+}
