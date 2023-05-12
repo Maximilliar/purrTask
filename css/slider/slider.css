@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.carousel_box {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
+
+.carousel_image {
+    margin: 0px auto 20px;
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel_item {
+    position: absolute;
+    top: 0;
+}
+
+
+.carousel_controls-back,
+.carousel_controls-forward {
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/slider/arrow.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.carousel_controls-back {
+    top: 200px;
+    left: 50px;
+    transform: rotate(180deg);
+}
+
+.carousel_controls-forward {
+    top: 200px;
+    right: 50px;
+    transform: rotate(0deg);
+}
+
+.carousel_item {
+    width: 600px;
+    height: 400px;
+}
+
+/* Dots */
+
+.carousel_dots-list {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_dots-item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #67c745;
+    cursor: pointer;
+}
+
+.carousel_dots-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.carousel_dots-item--active {
+    width: 20px;
+    height: 20px;
+    background-color: #397b21;
+    border: 1px solid black;
+}
