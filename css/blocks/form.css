@@ -115,17 +115,17 @@
     text-align: center;
 }
 
-.download_apps_block {
+.download_apps_block_form {
     position: relative;
 }
 
-.download_apps_block img {
+.download_apps_block_form img {
     height: 81px;
     margin-right: 60px;
     align-items: center;
 }
 
-.download_apps_block img:last-child {margin-right: 0px;}
+.download_apps_block_form img:last-child {margin-right: 0px;}
 
 .download_apps_wrapper {
     display: flex;

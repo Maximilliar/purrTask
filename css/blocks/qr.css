@@ -24,14 +24,14 @@
 
 .qr_text {
     position: absolute;
-    top: 32%;
-    left: 65%;
+    top: 29%;
+    left: 70%;
 }
 
 .qr_arrow {
     position: absolute;
-    top: 20%;
-    left: 62%;
+    top: 13%;
+    left: 64%;
 }
 
 .gen_block {
@@ -46,12 +46,14 @@
 .gen_title {
     font-weight: 700;
     font-size: 51px;
+    width: 450px;
 }
 
 .gen_text {
     font-weight: 400;
     font-size: 18px;
     width: 300px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .gen_under_block {

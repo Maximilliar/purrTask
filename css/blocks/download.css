@@ -10,10 +10,14 @@
     margin-left: 40px;
 }
 
-.download_img:first-child {margin-left: 0}
-
 .download_text .our_app_os {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 35px;
 }
+
+.footer_app img {
+    margin-right: 59px;
+}
+
+.footer_app img:last-child {margin-right: 0px;}

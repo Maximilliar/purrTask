@@ -52,6 +52,7 @@ function clearForm() {
         console.log('Не заполнены поля ввода!');
     } else {
         let arr = Array.from(input).map((item) => item.value = "");
+        console.log('Данные отправлены и форма очищена!');
         return arr;
     }
 }

@@ -53,5 +53,9 @@
     filter: blur(120px);
 }
 
+.main_text_block {
+    width: 490px;
+    font-family: 'Noto Sans', sans-serif;
+}
 
 /* Изображение main iphone имеет лишние невидимые границы, вследствие чего, пришлось через absolute подгонять по X/Y. */
